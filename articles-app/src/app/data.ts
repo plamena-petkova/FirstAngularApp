@@ -1,5 +1,5 @@
-import {data} from './seed';
-import { Article } from 'src/app/models/articles.models';
+import {data} from '../data/seed';
+import { Article } from 'src/app/models/article.models';
 
 
 export class ArticleData {
