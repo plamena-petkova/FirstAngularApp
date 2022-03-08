@@ -10,10 +10,8 @@ import { Article } from '../models/article.models';
 
 export class ArticleComponent implements OnInit {
   private symbols: number;
-  @Input()
-  article!: Article;
-  @Input()
-  articleDesc!: string;
+  @Input() article!: Article;
+  @Input() articleDesc!: string;
   descToShow: string;
   articleDescLen: number;
   showReadMoreBtn: boolean;
